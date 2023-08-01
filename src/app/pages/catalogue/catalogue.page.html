@@ -1,0 +1,48 @@
+
+        <ion-header>
+          <ion-toolbar class="toolbar-custom">  
+    
+      
+           <p class="marg" style="width:90%;text-align: center;color: black;font-size: 120%;margin-left: -10px;">Catalogue</p> 
+    
+            <ion-buttons slot="start"  (click)="dismiss()">
+              <ion-icon size="large" name="chevron-back-circle" slot="start"  color="danger"></ion-icon>
+            </ion-buttons>
+          </ion-toolbar>
+        </ion-header>
+        <ion-content class="ion-padding "> 
+      
+          <div class="center-container">
+            <ion-card class="bottom-card">
+    
+              <ion-row class="bord">
+                <ion-col size="7">
+                  <h5>Eat a Healthy balanced diet</h5>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum molestias, hic deleniti autem
+                    voluptatem est.</p>
+                  <h6>11-mar-2023</h6>
+                </ion-col>
+                <ion-col size="5">
+                  <img src="/assets/images/eye.png">
+                </ion-col>
+              </ion-row>
+    
+    
+              <div class="bottom-content">
+                <ion-icon name="arrow-back" style="font-size: 100%;" (click)="dismiss()"></ion-icon>
+                <span (click)="dismiss()">Back</span>
+    
+                <ion-icon name="cloud-download" style="font-size: 100%;"></ion-icon>
+                <span>Download</span>
+    
+                <ion-icon name="star" style="font-size: 100%;"></ion-icon>
+                <span>Shortlist</span>
+    
+                <ion-icon name="share" style="font-size: 100%;"></ion-icon>
+                <span>Share</span>
+              </div>
+            </ion-card>
+          </div>
+    
+        </ion-content>
+

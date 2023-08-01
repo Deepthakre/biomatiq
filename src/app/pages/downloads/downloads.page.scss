@@ -1,0 +1,156 @@
+h1{
+    margin-left: 70px;
+    margin-top: 30px ;
+}
+div{
+    display: flex;
+  
+}
+.left{
+//    margin-left: 20px;
+   margin-top: 30px;
+}
+.right{
+// margin-left: 70px;
+margin-top: 30px;
+}
+ion-searchbar{
+ margin: auto;
+}
+// ion-icon{
+//     margin-top: 5px;
+//     margin-left: 75%;
+// }
+ion-button{
+    background-color: gray;
+    color: white;
+    justify-content: space-around;
+}
+ion-content{
+    height: 900px;
+}
+p{
+    font-size: 70%;
+}
+h6{
+    font-size: 80%;
+    color: red;
+}
+.bord{
+    border: 2px solid gray;
+}
+img{
+    margin: 15px;
+}
+.btn{
+    margin: 0px;
+    height: 80%;
+    margin-left: 10px;
+}
+.bottom_avtar {
+ 
+    align-items: right;
+    justify-content: right;
+ 
+  
+    }
+
+    .bottom_avtar {
+ 
+        align-items: right;
+        justify-content: right;
+        background: #fffafa;
+        opacity:0.6;
+        filter:Alpha(opacity=60); 
+      
+        float: right;
+     
+        clear:both;
+     
+    }
+    .content-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+      }
+      
+      .bottom-right-logo {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        padding: 10px;
+      }
+      
+      .im {
+        width: 60px; /* Adjust the width of the image as needed */
+        height: 20%;
+      }
+      .img{
+        margin-left: 18px;
+        margin-top: 22px;
+      }
+        
+//tabs
+
+@media (min-width: 768px) {
+    h1{
+        margin-left: 70px;
+        margin-top: 30px ;
+    }
+    div{
+        display: flex;
+      
+    }
+    .left{
+       
+       margin-top: 30px;
+    }
+    .right{
+    // margin-left: 70px;
+    margin-top: 30px;
+    }
+    ion-searchbar{
+     margin: auto;
+    }
+   // ion-icon{
+    //     margin-top: 5px;
+    //    margin-left: 50px;
+   //  }
+    ion-button{
+        background-color: gray;
+        color: white;
+        justify-content: space-around;
+    }
+    ion-content{
+        height: 900px;
+    }
+    p{
+        font-size: 70%;
+    }
+    h6{
+        font-size: 80%;
+        color: red;
+    }
+    .bord{
+        border: 3px solid gray;
+    }
+    // img{
+    //     margin: 15px;
+    // }
+    .btn{
+        margin: 0px;
+        height: 80%;
+        margin-left: 10px;
+    }
+    .img{
+        margin-left: 150px;
+        }
+        .bottom_avtar {
+ 
+            align-items: right;
+            justify-content: right;
+         
+          
+            }
+}

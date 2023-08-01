@@ -1,0 +1,7 @@
+{
+  "name": "biomatiq",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

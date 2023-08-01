@@ -1,0 +1,42 @@
+
+
+   <ion-content class="blur-background">
+
+    <div class="blue-background" style="height: 100%;">
+   
+     <ion-card-header>
+       
+        <img src="/assets/images/logo.png">
+       
+     
+     </ion-card-header>
+     <br> 
+     <ion-row>
+       <ion-col>
+         <h3 style="margin: auto;text-align: left;margin-left: 4%;font-weight: 700;font-size: 120%;">Sign In</h3>
+         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut, voluptatem.</p> 
+       </ion-col>
+     </ion-row>
+   <div class="darkb-background bg2" style="margin: auto;width: 90%;">
+
+   <ion-card-content style="margin: auto;align-items: center;">
+     <ion-item class="ion-margin">
+       <ion-input placeholder="Email" type="text" clearInput="true"> </ion-input>
+       <ion-icon name="phone-portrait-outline" slot="start"></ion-icon>
+     </ion-item>
+    
+     <ion-item class="ion-margin">
+       <ion-input placeholder="Password" type="text" [type]="passwordType" clearInput="true"> </ion-input>
+        <ion-icon name="bag-outline" slot="start"></ion-icon>
+       <ion-icon class="eye" style="font-size: small;" name="eye-outline" (click)="hideShowPassword()" slot="end"></ion-icon>
+    
+     </ion-item>
+     <p class="f-pass">Forgot Password? Recover it now.</p>
+    <ion-button style="background-color: #E40071;color: white;" expand="full" routerLink="/catalogue1"  fill="clear"  class="ion-margin"> Sign In</ion-button>
+    
+   </ion-card-content>
+  </div>
+</div>
+
+
+   </ion-content>

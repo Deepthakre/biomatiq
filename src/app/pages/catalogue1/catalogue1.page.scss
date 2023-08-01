@@ -1,0 +1,240 @@
+h1 {
+    margin-left: 70px;
+    margin-top: 30px;
+}
+
+div {
+    display: flex;
+
+}
+
+.left {
+      margin-left: 20px;
+    margin-top: 30px;
+}
+.cate{
+    text-align: center;
+    margin-left: 40px;
+}
+.right {
+    //  margin-right:210px;
+    margin-top: 30px;
+    // margin-right: -80px;
+}
+
+ion-searchbar {
+    margin: auto;
+}
+
+// ion-icon{
+//     margin-top: 5px;
+//     margin-left: 75%;
+// }
+ion-button {
+    background-color: gray;
+    color: white;
+    justify-content: space-around;
+}
+
+ion-content {
+    height: 900px;
+}
+
+p {
+    font-size: 70%;
+}
+
+h6 {
+    font-size: 80%;
+    color: red;
+}
+
+.bord {
+    border: 2px solid gray;
+}
+
+img {
+    margin: 15px;
+}
+
+
+.btn {
+    margin: 0px;
+    height: 80%;
+    margin-left: 10px;
+}
+
+ion-popover {
+    height: 35%;
+}
+
+.l {
+    margin-left: -4px;
+}
+
+ion-popover {
+    --backdrop-opacity: 0;
+    /* You can change this value between 0 (fully transparent) and 1 (fully opaque) */
+}
+
+.btn {
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.img{
+    height: 55%;
+    width: 80%;
+    margin-left: 25px;
+    margin-top: 22px;
+}
+ion-card {
+    margin-bottom: 20px; /* Add some margin at the bottom of each card */
+  }
+  .bottom-right-image {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    float: left; /* Float the image to the left side */
+    width: 100px; /* Adjust the width as needed */
+    height: auto; /* Adjust the height as needed */
+    margin-right: 10px;
+  }
+  .left-image-container {
+    display: inline-block; /* Display the container as an inline block */
+    vertical-align: top; /* Align the container's contents to the top of the line */
+  }
+  .bottom_avtar {
+ 
+    align-items: right;
+    justify-content: right;
+ 
+   
+    }
+    .content-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+      }
+      
+      .bottom-right-logo {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        padding: 10px;
+      }
+      
+      .im {
+        width: 60px; /* Adjust the width of the image as needed */
+        height:20px;
+      }
+      
+
+//tabs
+
+@media (min-width: 768px) {
+
+    h1 {
+        margin-left: 70px;
+        margin-top: 30px;
+    }
+
+    div {
+        display: flex;
+
+    }
+
+    .left {
+        //    margin-left: 20px;
+        margin-top: 30px;
+    }
+
+    .right {
+        // margin-left: 70px;
+        margin-top: 30px;
+    }
+
+    ion-searchbar {
+        margin: auto;
+    }
+
+    // ion-icon{
+    //     margin-top: 5px;
+    //     margin-left: 75%;
+    // }
+    ion-button {
+        background-color: gray;
+        color: white;
+        justify-content: space-around;
+    }
+
+    ion-content {
+        height: 900px;
+    }
+
+    p {
+        font-size: 70%;
+    }
+
+    h6 {
+        font-size: 80%;
+        color: red;
+    }
+
+    .bord {
+        border: 3px solid gray;
+    }
+
+    img {
+        margin: 15px;
+    }
+
+    .btn {
+        margin-top: 10px;
+        margin-left:100px;
+        width: 80%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+
+    ion-popover {
+        height: 35%;
+    }
+
+    .l {
+        margin-left: -4px;
+    }
+
+    .img {
+        margin-left: 170px;
+        width: 40%;
+        height: 70%;
+    }
+
+    ion-popover {
+        --backdrop-opacity: 0;
+        /* You can change this value between 0 (fully transparent) and 1 (fully opaque) */
+    }
+
+    .tabsiz {
+        font-size: 50px;
+    }
+    .bottom_avtar {
+ 
+        align-items: right;
+        justify-content: right;
+     
+      
+        }
+        ion-modal{
+            .img{
+                margin-left: 100px;
+                width: 40%;
+                height: 70%;
+            }
+        }
+}
+
+// catalogue model
+

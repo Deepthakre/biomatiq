@@ -1,0 +1,189 @@
+h1 {
+  margin-left: 70px;
+  margin-top: 30px;
+}
+
+div {
+  display: flex;
+
+}
+
+.left {
+  //    margin-left: 20px;
+  margin-top: 30px;
+}
+
+.right {
+  // margin-left: 70px;
+  margin-top: 30px;
+}
+
+ion-searchbar {
+  margin: auto;
+}
+
+// ion-icon{
+//     margin-top: 5px;
+//     margin-left: 75%;
+// }
+ion-button {
+  background-color: gray;
+  color: white;
+  justify-content: space-around;
+}
+
+ion-content {
+  height: 900px;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+p {
+  font-size: 70%;
+}
+
+h6 {
+  font-size: 80%;
+  color: red;
+}
+
+.bord {
+  border: 3px solid black;
+}
+
+img {
+  margin: 15px;
+}
+
+
+.btn {
+  margin: 0px;
+  height: 80%;
+  margin-left: 10px;
+}
+
+ion-popover {
+  height: 35%;
+}
+
+.l {
+  margin-left: -4px;
+}
+
+ion-popover {
+  --backdrop-opacity: 0;
+  /* You can change this value between 0 (fully transparent) and 1 (fully opaque) */
+}
+
+.btn {
+  margin-top: 10px;
+  margin-left: 40px;
+}
+.img{
+  height: 55%;
+  width: 80%;
+}
+.bottom-right-image {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 100px; /* Set the width as needed */
+  height: auto;
+}
+// .card {
+//   /* Add some padding to create space between the cards and the bottom-right image */
+//   margin-bottom: 50px;
+// }
+
+
+//tabs
+
+@media (min-width: 768px) {
+
+  h1 {
+      margin-left: 70px;
+      margin-top: 30px;
+  }
+
+  div {
+      display: flex;
+
+  }
+
+  .left {
+      //    margin-left: 20px;
+      margin-top: 30px;
+  }
+
+  .right {
+      // margin-left: 70px;
+      margin-top: 30px;
+  }
+
+  ion-searchbar {
+      margin: auto;
+  }
+
+  // ion-icon{
+  //     margin-top: 5px;
+  //     margin-left: 75%;
+  // }
+  ion-button {
+      background-color: gray;
+      color: white;
+      justify-content: space-around;
+  }
+
+  ion-content {
+      height: 900px;
+  }
+
+  p {
+      font-size: 70%;
+  }
+
+  h6 {
+      font-size: 80%;
+      color: red;
+  }
+
+  .bord {
+      border: 4px solid black;
+  }
+
+  img {
+      margin: 15px;
+  }
+
+  .btn {
+      margin-top: 10px;
+      margin-left:100px;
+      width: 80%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+  }
+
+  ion-popover {
+      height: 35%;
+  }
+
+  .l {
+      margin-left: -4px;
+  }
+
+  .img {
+      margin-left: 170px;
+      width: 40%;
+      height: 70%;
+  }
+
+  ion-popover {
+      --backdrop-opacity: 0;
+      /* You can change this value between 0 (fully transparent) and 1 (fully opaque) */
+  }
+
+  .tabsiz {
+      font-size: 50px;
+  }
+}

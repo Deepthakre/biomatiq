@@ -1,0 +1,165 @@
+
+
+img {
+  margin-top: 30px;
+  width: 50%;
+  height: 10%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ion-content.blur-background {
+  --background: transparent;
+
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(4, 63, 97, 0.9), rgba(3, 59, 92, 0.6)), url('/assets/images/interior-laboratory.jpg');
+    background-size: cover;
+    z-index: -1;
+  }
+}
+
+.blue-background {
+  background-color: rgba(5, 40, 69, 0.5);
+  height: 100%;
+  margin-left: -0;
+  margin-right: -0;
+  margin-top: -0;
+
+
+  // h3{
+  text-align: left;
+  font-family: inherit;
+  font-weight: bolder;
+  color: rgb(238, 242, 245);
+  font-size: 25px;
+
+  // } 
+  p {
+
+    font-size: 10px;
+    color: white;
+    margin-left: 4%;
+  }
+
+  .f-pass {
+    text-align: right;
+    font-size: 13px;
+    margin-right: 4%;
+  }
+}
+
+.darkb-background {
+  background-color: #436980;
+  opacity: 1;
+  --backdrop-opacity: 0.9;
+  height: 300px;
+}
+
+ion-button {
+
+  font-size: medium;
+  text-transform: capitalize;
+  margin-top: 8%;
+  height: 53px;
+
+}
+
+//tabs view
+
+@media (min-width: 768px) {
+  img {
+    margin-top: 80px;
+    width: 50%;
+    height: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  ion-content.blur-background {
+    --background: transparent;
+
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(to right, rgba(4, 63, 97, 0.9), rgba(3, 59, 92, 0.6)), url('/assets/images/interior-laboratory.jpg');
+      background-size: cover;
+      filter: blur(3px);
+
+      z-index: -1;
+    }
+  }
+
+  .blue-background {
+    background-color: rgba(5, 40, 69, 0.5);
+    height: 760px;
+    margin-left: -0;
+    margin-right: -0;
+    margin-top: -0;
+
+    h3 {
+      text-align: left;
+      font-family: inherit;
+      font-weight: bolder;
+      color: rgb(238, 242, 245);
+      font-size: 25px;
+      margin-left: 4%;
+    }
+
+    p {
+      font-family: inherit;
+      font-size: 20px;
+      color: rgb(238, 242, 245);
+      margin-left: 4%;
+    }
+
+    .f-pass {
+      text-align: right;
+      font-size: 20px;
+      margin-right: 4%;
+    }
+  }
+
+  .darkb-background {
+    background-color: #436980;
+    opacity: 1;
+    height: 500px;
+  }
+
+  ion-button {
+    font-size: medium;
+    text-transform: capitalize;
+    margin-top: 8%;
+    height: 53px;
+  }
+
+  h3 {
+    font-size: 1000%;
+  }
+
+  ion-item {
+    margin-top: 60px;
+  }
+
+  .bg2 {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .eye {
+    font-size: 160%;
+  }
+}

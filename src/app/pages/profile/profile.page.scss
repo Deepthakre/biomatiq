@@ -1,0 +1,292 @@
+$image-size: 120px;
+
+.header-md::after {
+  background-image: none;
+}
+
+
+
+.content-bg {
+  --background: #edf0f5;
+}
+
+
+
+.button-vertical-align {
+  position: absolute;
+  top: calc(50% - 12.2px)
+}
+
+.button-left {
+  right: 0px;
+}
+
+.button-right {
+  left: 0px;
+}
+
+.empty {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.image-round {
+  background-color: #CECECE;
+  border: 2px solid #FAFAFA;
+  border-radius: 50%;
+  display: block;
+  height: $image-size;
+  margin: 0 auto;
+  width: $image-size;
+}
+
+.image-over-div {
+  margin-top: -($image-size/ 2);
+}
+
+
+.colr {
+  background-color: #023552;
+}
+
+h3 {
+  margin-top: -50px;
+  margin-left: 42%;
+  color: white;
+}
+
+.text {
+  color: gray;
+  font-size: small;
+}
+
+.ion-padding {
+  margin: 20px;
+
+}
+
+.text1 {
+  color: black;
+  font-size: medium;
+
+}
+
+ion-content {
+  --background: url('/assets/images/wave.jpg')no-repeat center bottom / cover;
+
+}
+
+.toolbar-custom {
+  background-color: #023552;
+}
+
+ion-toolbar {
+  --background: #023552;
+}
+
+
+
+.im {
+  
+  position: fixed;
+  bottom: 10px;
+  right: 15px;
+  height: 4%;
+  width: 20%;
+
+}
+
+.toolbar-custom {
+  position: relative;
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  width: 30px;
+  /* Adjust the size of the circle */
+  height: 30px;
+  /* Adjust the size of the circle */
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translateY(-50%);
+  z-index: 1;
+  /* Ensure the circle is above the icon */
+}
+
+.icon-container::before {
+  content: '';
+  position: absolute;
+  width: 0px;
+  /* Adjust the size of the arrow */
+  height: 0px;
+  /* Adjust the size of the arrow */
+  background-color: white;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) rotate(45deg);
+}
+
+.icon-container::after {
+  content: '';
+  position: absolute;
+  width: 0px;
+  /* Adjust the size of the arrow */
+  height: 0px;
+  /* Adjust the size of the arrow */
+  background-color: white;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) rotate(-45deg);
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.bottom-right-logo {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 10px;
+}
+
+.im {
+  width: 60px;
+  /* Adjust the width of the image as needed */
+  height: 20px;
+}
+
+ 
+//_____________________tabs_______________________________
+
+@media (min-width: 768px) {
+
+  $image-size: 150px;
+
+  .header-md::after {
+    background-image: none;
+  }
+
+  .header-ios ion-toolbar:last-child {
+    --border-width: 0
+  }
+
+  ion-content {
+    --background: #FAFAFA;
+  }
+
+  .content-bg {
+    --background: #edf0f5;
+  }
+
+  .button-vertical-align {
+    position: absolute;
+    top: calc(50% - 12.2px)
+  }
+
+  .button-left {
+    right: 0px;
+  }
+
+  .button-right {
+    left: 0px;
+  }
+
+  .empty {
+    padding-bottom: 50px;
+    padding-top: 50px;
+  }
+
+  .image-round {
+    background-color: #CECECE;
+    border: 2px solid #FAFAFA;
+    border-radius: 50%;
+    display: block;
+    height: $image-size;
+    margin: 0 auto;
+    width: $image-size;
+  }
+
+  .image-over-div {
+    margin-top: -($image-size/ 2);
+  }
+
+  .margin-top {
+    margin-top: 20px;
+  }
+
+  .position-relative {
+    position: relative;
+  }
+
+
+  .colr {
+    background-color: #023552;
+  }
+
+  h3 {
+    margin-top: -50px;
+    margin-left: 42%;
+    color: white;
+  }
+
+  .text {
+    color: gray;
+    font-size: 130%;
+  }
+
+  .ion-padding {
+    margin: 20px;
+
+  }
+
+  .text1 {
+    color: black;
+    font-size: 160%;
+
+  }
+
+  ion-content {
+    --background: url('/assets/images/wave.jpg')no-repeat center center / cover;
+
+
+  }
+
+ 
+  .toolbar-custom {
+    background-color: #023552;
+  }
+
+  ion-toolbar {
+    --background: #023552;
+  }
+
+  .marg {
+    font-size: 180%;
+  }
+
+  .tabmarg {
+    margin-left: 100px;
+    margin-top: 50px;
+  }
+
+
+
+  .im {
+    position: fixed;
+    bottom: 20px;
+    right: 15px;
+    height: 3%;
+    width: 13%;
+
+  }
+
+}

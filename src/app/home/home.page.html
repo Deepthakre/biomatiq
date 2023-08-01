@@ -1,0 +1,62 @@
+
+<ion-content  style="margin: auto;" style="--background: url('/assets/images/wave.jpg') no-repeat center center / cover fixed;">
+  <div>
+    <ion-icon style="width: 95%;" class="left" size="large" name="chevron-back-circle" color="danger" routerLink="/sign-in"  slot="start"></ion-icon>
+   
+    <p style="text-align: center;font-size: 150%;width: 95%;margin-top: 30px;">Catalogue</p>
+    <ion-icon style="width: 95%;" class="right" size="large" routerlink="/profile"  id="popover-button" name="person-circle-outline" slot="end" item-end></ion-icon>
+    <ion-popover trigger="popover-button" [dismissOnSelect]="true">
+      <ng-template class="temp">
+        <ion-content>
+          <ion-list>
+            
+            <ion-item [button]="true" routerLink="/profile"><ion-icon class="l" name="person-outline"></ion-icon>Profile</ion-item>
+            <ion-item [button]="true" routerLink="/downloads"><ion-icon class="l" name="download-outline"></ion-icon>Download</ion-item>
+            <ion-item [button]="true" routerLink="/shortlist"><ion-icon class=l name="list-outline"></ion-icon>Shortlist</ion-item>
+            <ion-item [button]="true" routerLink="/sign-in"><ion-icon class="l" name="exit-outline"></ion-icon>Logout</ion-item>
+          </ion-list>
+        </ion-content>
+      </ng-template>
+    </ion-popover> 
+    </div>
+  <ion-searchbar fill="solid"   placeholder="Search Categories ,Brand" style="width: 90%;margin: auto;" showCancelButton="focus" class="custom"></ion-searchbar>
+  <p  style="width: 95%;text-align: right;margin-right: 8px">
+  <ion-icon class="tabsiz" style="font-size: 15px;" name="funnel-outline"></ion-icon><span style="font-size:15px;">Filter</span>
+</p>
+  <ion-card style="width: 90%;margin: auto;">
+    <ion-row class="bord">
+      <ion-col size="7">
+        <h5 style="color: black;">Eat a Healthy balanced diet</h5>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum molestias, hic deleniti autem voluptatem est.</p>
+        <h6>11-mar-2023</h6>
+      </ion-col>
+      <ion-col size="5">
+        <img src="/assets/images/eye.png" class="img">
+      </ion-col>
+    </ion-row>
+  </ion-card>
+<br>
+  <ion-card style="width: 90%;margin: auto;" class="card">
+    <ion-row class="bord">
+      <ion-col size="10">
+        <img src="/assets/images/you.png" class="btn">
+      </ion-col>
+    </ion-row>
+  </ion-card>
+<br>
+  <ion-card style="width: 90%;margin: auto;margin-bottom: 60px;" >
+    <ion-row class="bord">
+      <ion-col size="7">
+        <h5 style="color: black;">Eat a Healthy balanced diet</h5>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum molestias, hic deleniti autem voluptatem est.</p>
+        <h6>11-mar-2023</h6>
+      </ion-col>
+      <ion-col size="5">
+        <img src="/assets/images/eye.png" class="img">
+      </ion-col>
+    </ion-row>
+  </ion-card>
+
+  <img src="/assets/images/bio.png" alt="Bottom Right Image" class="bottom-right-image">
+
+</ion-content>

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">BiomatiQ</string>
+    <string name="title_activity_main">BiomatiQ</string>
+    <string name="package_name">io.ionic.BiomatiQ</string>
+    <string name="custom_url_scheme">io.ionic.BiomatiQ</string>
+</resources>

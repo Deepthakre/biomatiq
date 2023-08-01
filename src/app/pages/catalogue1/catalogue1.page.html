@@ -1,0 +1,217 @@
+
+<ion-content style="margin: auto;"
+  style="--background: url('/assets/images/wave.jpg') no-repeat center center / cover fixed;" class="content-container">
+ 
+
+  <ion-grid>
+    <ion-row style="width: 95%;">
+      <ion-col size="2" class="ion-text-start">
+      
+        <ion-icon style="width: 95%; font-size: 32px;margin-left:10px;" size="large" class="left"
+          name="chevron-back-circle" color="danger" routerLink="/sign-in"></ion-icon>
+      </ion-col>
+      <ion-col size="8" class="ion-text-center">
+  
+        <p style="text-align: center;font-size: 150%;width: 95%;margin-top: 30px;align-items: center;margin-left: 20px;">Catalogue</p>
+      </ion-col>
+      <ion-col size="2" class="ion-text-end">
+     
+        <ion-icon style="width: 95%;margin-right: auto;font-size: 32px;margin-right: -10px;" class="right" size="large"
+          routerlink="/profile" id="popover-button" name="person-circle-outline" item-end></ion-icon>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+
+
+
+  <ion-popover trigger="popover-button" [dismissOnSelect]="true">
+    <ng-template class="temp">
+      <ion-content>
+        <ion-list>
+
+          <ion-item [button]="true" routerLink="/profile"><ion-icon class="l"
+              name="person-outline"></ion-icon>Profile</ion-item>
+          <ion-item [button]="true" routerLink="/downloads"><ion-icon class="l"
+              name="download-outline"></ion-icon>Download</ion-item>
+          <ion-item [button]="true" routerLink="/shortlist"><ion-icon class=l
+              name="list-outline"></ion-icon>Shortlist</ion-item>
+          <ion-item [button]="true" routerLink="/sign-in"><ion-icon class="l"
+              name="exit-outline"></ion-icon>Logout</ion-item>
+        </ion-list>
+      </ion-content>
+    </ng-template>
+  </ion-popover>
+
+  <ion-searchbar fill="solid" placeholder="Search Categories,Brand" style="width: 90%;margin: auto;"
+    showCancelButton="focus" class="custom"></ion-searchbar>
+  <p style="width: 95%;text-align: right;margin-right: 20px">
+    <ion-icon class="tabsiz" style="font-size: 15px;" name="funnel-outline" id="open-modal"></ion-icon><span
+      style="font-size:15px;">Filter</span>
+  </p>
+  <ion-card style="width: 90%;margin: auto;">
+    <ion-row class="bord" >
+      <ion-col size="7">
+        <h5 style="color: black;">Eat a Healthy balanced diet</h5>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum molestias, hic deleniti autem voluptatem
+          est.</p>
+        <h6>11-mar-2023</h6>
+      </ion-col>
+      <ion-col size="5">
+        <img src="/assets/images/eye.png" class="img">
+      </ion-col>
+    </ion-row>
+  </ion-card>
+  <br>
+  <ion-card style="width: 90%;margin: auto;" class="card">
+    <ion-row class="bord">
+      <ion-col size="10">
+        <img src="/assets/images/you.png" class="btn">
+      </ion-col>
+    </ion-row>
+  </ion-card>
+  <br>
+  <ion-card style="width: 90%;margin: auto;">
+    <ion-row class="bord">
+      <ion-col size="7">
+        <h5 style="color: black;">Eat a Healthy balanced diet</h5>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum molestias, hic deleniti autem voluptatem
+          est.</p>
+        <h6>11-mar-2023</h6>
+      </ion-col>
+      <ion-col size="5">
+        <img src="/assets/images/eye.png" class="img">
+      </ion-col>
+    </ion-row>
+  </ion-card>
+  <br>
+  <div class="bottom-right-logo">
+    <img src="/assets/images/bio.png" alt="Logo" class="im" />
+  </div>
+</ion-content>
+
+
+
+<!-- catalogue filter click -->
+
+
+
+<ion-modal [keepContentsMounted]="true" trigger="open-modal" #modal>
+  <ng-template>
+    <ion-content style="margin: auto;"
+      style="--background: url('/assets/images/wave.jpg') no-repeat center center / cover fixed;margin-bottom: 70px;"
+      class="content-container">
+    
+
+      <ion-grid>
+        <ion-row style="width: 95%;">
+          <ion-col size="2" class="ion-text-start">
+            <!-- First Icon -->
+            <ion-icon style="width: 95%; font-size: 32px;margin-left:10px;" size="large" class="left"
+              name="chevron-back-circle" color="danger" routrLink="/catalogue1" (click)="modal.dismiss()"></ion-icon>
+          </ion-col>
+          <ion-col size="8" class="ion-text-center">
+            <!-- Centered Heading -->
+            <p style="text-align: center;font-size: 150%;width: 95%;margin-top: 30px;align-items: center;margin-left: 18px;">Catalogue</p>
+          </ion-col>
+          <ion-col size="2" class="ion-text-end">
+            <!-- Last Icon -->
+            <ion-icon style="width: 95%;margin-right: auto;font-size: 32px;" class="right" size="large"
+              name="person-circle-outline" item-end></ion-icon>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+
+      <ion-searchbar style="width: 90%;margin: auto;" placeholder="Search Categories,Brand" showCancelButton="focus"
+        class="custom"></ion-searchbar>
+
+
+      <p style="width: 90%;text-align: right;margin-right: 8px;font-size: 70%;">
+        <ion-icon class="tabsiz" style="font-size: 15px;" name="funnel-outline"></ion-icon><span
+          style="font-size:15px;color: black;">Filter</span>
+      </p>
+
+
+      <ion-grid>
+        <ion-row style="margin: auto;width:90%;">
+          <ion-col size="4" class="btn1">
+            <ion-button class="btn11" fill="clear"
+              style=" width: 80%;height: 100%;font-size: 80%;text-transform: capitalize;">Videos</ion-button></ion-col>
+          <ion-col size="4">
+            <ion-button class="btn12" fill="clear"
+              style="width: 85%;height: 100%;font-size: 80%;text-transform: capitalize;">Brochure</ion-button></ion-col>
+          <ion-col size="4">
+            <ion-button class="btn13" fill="clear"
+              style=" width: 80%;height: 100%;font-size: 80%;text-transform: capitalize;">WriteUp</ion-button></ion-col>
+        </ion-row>
+      </ion-grid>
+      <br>
+      <ion-card id="open-modal" #page style="width: 90%;margin: auto;" (click)=" OpenStatus()">
+        <ion-row class="bord">
+          <ion-col size="7">
+            <h5>Eat a Healthy balanced diet</h5>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum molestias, hic deleniti autem
+              voluptatem
+              est.</p>
+            <h6>11-mar-2023</h6>
+          </ion-col>
+          <ion-col size="5">
+            <img src="/assets/images/eye.png" class="img">
+          </ion-col>
+        </ion-row>
+      </ion-card>
+      <br>
+      <ion-card style="width: 90%;margin: auto;" class="card">
+        <ion-row class="bord">
+          <ion-col size="10">
+            <img src="/assets/images/you.png" class="btn">
+          </ion-col>
+        </ion-row>
+      </ion-card><br>
+      <ion-card id="open-modal" #page style="width: 90%;margin: auto;">
+        <ion-row class="bord">
+          <ion-col size="7">
+            <h5>Eat a Healthy balanced diet</h5>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum molestias, hic deleniti autem
+              voluptatem
+              est.</p>
+            <h6>11-mar-2023</h6>
+          </ion-col>
+          <ion-col size="5">
+            <img src="/assets/images/eye.png" class="img">
+          </ion-col>
+        </ion-row>
+      </ion-card>
+      <div class="bottom-right-logo">
+        <img src="/assets/images/bio.png" alt="Logo" class="im" />
+      </div>
+
+    </ion-content>
+  </ng-template>
+</ion-modal>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <ion-footer>
+  <div class='bottom_avtar'>
+
+    <img src="/assets/images/bio.png" height="20px">
+
+  </div>
+</ion-footer> -->
